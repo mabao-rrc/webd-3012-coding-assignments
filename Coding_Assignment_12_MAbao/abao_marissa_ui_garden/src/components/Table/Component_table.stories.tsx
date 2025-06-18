@@ -3,14 +3,14 @@
  * Submission Date: June 25, 2025
  * Class: WEBD-3012
  * Coding Assignment 12: Web Component Library
- * Filename: Table.stories.tsx
+ * Filename: Component_table.stories.tsx
  * Description: This file contains Storybook stories for the Table component.
  * It showcases how the table appears in different styles such as striped, bordered, and hoverable.
  */
 
 // Import necessary types from Storybook
 import type { Meta, StoryObj } from '@storybook/react-webpack5';
-import Table from './Table';
+import Table from './Component_table';
 
 // Define metadata for the Table component in Storybook
 const meta: Meta<typeof Table> = {

@@ -9,7 +9,7 @@
  */
 
 // Export the default Button component
-export { default as Button } from './Button';
+export { default as Button } from './Component_button';
 
 // Export the ButtonProps type for external use
-export type { ButtonProps } from './Button.types';
+export type { ButtonProps } from './Component_button.types';

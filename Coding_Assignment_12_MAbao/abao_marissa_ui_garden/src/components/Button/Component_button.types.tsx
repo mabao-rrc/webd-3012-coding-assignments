@@ -3,7 +3,7 @@
  * Submission Date: June 25, 2025
  * Class: WEBD-3012
  * Coding Assignment 12: Web Component Library
- * Filename: Button.types.ts
+ * Filename: Component_button.types.tsx
  * Description: Defines the type structure for the Button component, 
  * including supported props such as label, onClick, and disabled state.
  */

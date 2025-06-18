@@ -3,7 +3,7 @@
  * Submission Date: June 25, 2025
  * Class: WEBD-3012
  * Coding Assignment 12: Web Component Library
- * Filename: Text.types.tsx
+ * Filename: Component_text.types.tsx
  * Description: This file defines the prop types for the Text component,
  * allowing for customizable size, weight, color, and content.
  */

@@ -3,14 +3,14 @@
  * Submission Date: June 25, 2025
  * Class: WEBD-3012
  * Coding Assignment 12: Web Component Library
- * Filename: Text.tsx
+ * Filename: Component_text.tsx
  * Description: This file defines the Text component, which renders styled text
  * with customizable size, color, and font weight using styled-components.
  */
 
 import React from 'react';
 import styled from 'styled-components';
-import { TextProps } from './Text.types';
+import { TextProps } from './Component_text.types';
 
 // Define a styled <span> element with only the style-related props
 const StyledText = styled.span<{

@@ -3,7 +3,7 @@
  * Submission Date: June 25, 2025
  * Class: WEBD-3012
  * Coding Assignment 12: Web Component Library
- * Filename: Label.stories.tsx
+ * Filename: Component_label.stories.tsx
  * Description: This file contains Storybook stories for the Label component.
  * It demonstrates how the Label appears and behaves with different props, including linking to form elements via htmlFor.
  */
@@ -11,7 +11,7 @@
 // Import necessary types from Storybook for type-safe metadata and story definitions
 import type { Meta, StoryObj } from '@storybook/react-webpack5';
 // Import the actual Label component
-import Label from './Label';
+import Label from './Component_label';
 
 // Define metadata for the Label component in Storybook
 const meta: Meta<typeof Label> = {

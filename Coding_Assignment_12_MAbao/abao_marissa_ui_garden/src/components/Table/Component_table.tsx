@@ -3,14 +3,14 @@
  * Submission Date: June 25, 2025
  * Class: WEBD-3012
  * Coding Assignment 12: Web Component Library
- * Filename: Table.tsx
+ * Filename: Component_table.tsx
  * Description: This file defines the Table component, a reusable and responsive
  * component that supports striped rows, bordered cells, and hover effects.
  */
 
 import React from 'react';
 import styled from 'styled-components';
-import { TableProps } from './Table.types';
+import { TableProps } from './Component_table.types';
 
 // Styled table element with optional striped, bordered, and hoverable features
 const StyledTable = styled.table<{

@@ -3,7 +3,7 @@
  * Submission Date: June 25, 2025
  * Class: WEBD-3012
  * Coding Assignment 12: Web Component Library
- * Filename: Table.tests.tsx
+ * Filename: Component_table.tests.tsx
  * Description: This file contains unit tests for the Table component using React Testing Library.
  * It checks that the table is visible and that its styling props like hoverable are passed correctly.
  */
@@ -11,7 +11,7 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import Table from './Table';
+import Table from './Component_table';
 
 describe('Table component', () => {
   const headers = ['Name', 'Email'];

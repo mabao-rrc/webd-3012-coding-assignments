@@ -7,7 +7,7 @@
  * Description: This file serves as the central export point for all UI components in the library.
  */
 
-export { default as Button } from '../Button/Button';
-export { default as Label } from '../Label/Label';
-export { default as Text } from '../Text/Text';
-export { default as Table } from './Table';
+export { default as Button } from '../Button/Component_button';
+export { default as Label } from '../Label/Component_label';
+export { default as Text } from '../Text/Component_text';
+export { default as Table } from './Component_table';

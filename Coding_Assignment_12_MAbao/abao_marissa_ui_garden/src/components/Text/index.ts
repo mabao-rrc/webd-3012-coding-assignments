@@ -6,5 +6,5 @@
 // Description: This file re-exports the Text component and its type definitions
 // to simplify imports from this folder.
 
-export { default } from './Text';       // Re-export the Text component
-export type { TextProps } from './Text.types'; // Re-export the prop types
+export { default } from './Component_text';       // Re-export the Text component
+export type { TextProps } from './Component_text.types'; // Re-export the prop types

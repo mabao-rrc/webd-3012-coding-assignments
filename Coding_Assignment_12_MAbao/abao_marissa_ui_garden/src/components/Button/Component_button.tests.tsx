@@ -3,7 +3,7 @@
  * Submission Date: June 25, 2025
  * Class: WEBD-3012
  * Coding Assignment 12: Web Component Library
- * Filename: Button.tests.tsx
+ * Filename: Component_button.tests.tsx
  * Description: This file contains unit tests for the Button component using React Testing Library.
  * It checks whether the button is visible and whether it properly reflects the disabled state both visually and functionally.
  */
@@ -14,7 +14,7 @@ import { render, screen } from '@testing-library/react';
 // Adds custom matchers like toBeVisible, toBeDisabled, etc.
 import '@testing-library/jest-dom';
 // Import the Button component we are testing
-import Button from './Button';
+import Button from './Component_button';
 
 describe('Button component', () => {
   // First test: verifies that the button is rendered with the correct label

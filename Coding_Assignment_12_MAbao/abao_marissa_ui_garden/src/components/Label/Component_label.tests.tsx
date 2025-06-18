@@ -3,7 +3,7 @@
  * Submission Date: June 25, 2025
  * Class: WEBD-3012
  * Coding Assignment 12: Web Component Library
- * Filename: Label.tests.tsx
+ * Filename: Component_label.tests.tsx
  * Description: This file contains unit tests for the Label component using React Testing Library.
  * The tests verify that the label renders correctly and is associated with a form field when the htmlFor prop is provided.
  */
@@ -14,7 +14,7 @@ import { render, screen } from '@testing-library/react';
 // Import custom Jest matchers for better assertions
 import '@testing-library/jest-dom';
 // Import the Label component to test
-import Label from './Label';
+import Label from './Component_label';
 
 describe('Label component', () => {
   // Test that the label renders with the correct text

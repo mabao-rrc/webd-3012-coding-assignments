@@ -3,14 +3,14 @@
  * Submission Date: June 25, 2025
  * Class: WEBD-3012
  * Coding Assignment 12: Web Component Library
- * Filename: Button.tsx
+ * Filename: Component_button.tsx
  * Description: This file defines the Button component, which supports a label, optional click handler, and a disabled state.
  * Styled-components are used for styling and to ensure responsiveness and reusability.
  */
 
 import React from 'react';
 import styled from 'styled-components';
-import { ButtonProps } from './Button.types';
+import { ButtonProps } from './Component_button.types';
 
 // Define a styled button component with conditional styling based on the "disabled" prop
 const StyledButton = styled.button<{ disabled?: boolean }>`

@@ -3,7 +3,7 @@
  * Submission Date: June 25, 2025
  * Class: WEBD-3012
  * Coding Assignment 12: Web Component Library
- * Filename: Text.tests.tsx
+ * Filename: Component_text.tests.tsx
  * Description: This file contains unit tests for the Text component using React Testing Library.
  * The tests verify correct rendering of the text and styling based on the provided props.
  */
@@ -14,7 +14,7 @@ import { render, screen } from '@testing-library/react';
 // Import custom Jest matchers for better assertions
 import '@testing-library/jest-dom';
 // Import the component to test
-import Text from './Text';
+import Text from './Component_text';
 
 // Group related tests for the Text component
 describe('Text component', () => {

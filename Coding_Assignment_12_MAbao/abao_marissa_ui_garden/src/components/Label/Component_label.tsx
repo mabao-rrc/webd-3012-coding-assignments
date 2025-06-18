@@ -3,7 +3,7 @@
  * Submission Date: June 25, 2025
  * Class: WEBD-3012
  * Coding Assignment 12: Web Component Library
- * Filename: Label.tsx
+ * Filename: Component_label.tsx
  * Description: This file defines the Label component, which displays text associated
  * with a form field or element. Styled-components are used for consistent styling
  * and to support reusability and responsiveness.
@@ -11,7 +11,7 @@
 
 import React from 'react';
 import styled from 'styled-components';
-import { LabelProps } from './Label.types';
+import { LabelProps } from './Component_label.types';
 
 // Define a styled <label> element with consistent spacing and styling
 const StyledLabel = styled.label`

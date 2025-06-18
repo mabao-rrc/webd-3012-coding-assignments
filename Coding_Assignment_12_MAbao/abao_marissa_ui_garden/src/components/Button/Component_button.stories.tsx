@@ -3,14 +3,14 @@
  * Submission Date: June 25, 2025
  * Class: WEBD-3012
  * Coding Assignment 12: Web Component Library
- * Filename: Button.stories.tsx
+ * Filename: Component_button.stories.tsx
  * Description: This file contains Storybook stories for the Button component.
  * It demonstrates how the Button behaves in different states like default and disabled.
  */
 
 // Import necessary types from Storybook for type-safe metadata and story definitions
 import type { Meta, StoryObj } from '@storybook/react-webpack5';
-import Button from './Button';
+import Button from './Component_button';
 
 // Define metadata for the Button component in Storybook
 const meta: Meta<typeof Button> = {

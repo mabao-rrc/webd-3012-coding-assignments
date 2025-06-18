@@ -3,14 +3,14 @@
  * Submission Date: June 25, 2025
  * Class: WEBD-3012
  * Coding Assignment 12: Web Component Library
- * Filename: Text.stories.tsx
+ * Filename: Component_text.stories.tsx
  * Description: This file contains Storybook stories for the Text component.
  * It showcases how the Text component appears with different sizes, weights, and colors.
  */
 
 // Import necessary types from Storybook for type-safe metadata and story definitions
 import type { Meta, StoryObj } from '@storybook/react-webpack5';
-import Text from './Text';
+import Text from './Component_text';
 
 // Define metadata for the Text component in Storybook
 const meta: Meta<typeof Text> = {

@@ -10,7 +10,7 @@
 
 // Export the default Label component so it can be imported like:
 // import Label from './components/Label';
-export { default } from './Label';
+export { default } from './Component_label';
 
 // Export the LabelProps type so it can be reused for prop validation or external typing
-export type { LabelProps } from './Label.types';
+export type { LabelProps } from './Component_label.types';
