@@ -1,6 +1,6 @@
 /**
  * Name: Marissa Abao
- * Submission Date: June 25, 2025
+ * Submission Date: June 30, 2025
  * Class: WEBD-3012
  * Coding Assignment 12: Web Component Library
  * Filename: Component_button.types.tsx

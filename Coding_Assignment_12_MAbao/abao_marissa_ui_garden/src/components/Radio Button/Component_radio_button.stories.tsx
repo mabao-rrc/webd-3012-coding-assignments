@@ -1,6 +1,6 @@
 /**
  * Name: Marissa Abao
- * Submission Date: June 25, 2025
+ * Submission Date: June 30, 2025
  * Class: WEBD-3012
  * Coding Assignment 12: Web Component Library
  * Filename: Component_radio_button.stories.tsx
@@ -11,7 +11,6 @@
 // Import necessary types from Storybook for type-safe metadata and story definitions
 import type { Meta, StoryObj } from '@storybook/react-webpack5';
 import Component_radio_button from './Component_radio_button';
-import { RadioButtonProps } from './Component_radio_button.types';
 
 const meta: Meta<typeof Component_radio_button> = {
   title: 'Components/RadioButton',
