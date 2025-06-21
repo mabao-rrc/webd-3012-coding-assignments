@@ -14,7 +14,7 @@ import { render, screen } from '@testing-library/react';
 // Adds custom matchers like toBeVisible, toBeDisabled, etc.
 import '@testing-library/jest-dom';
 // Import the Button component we are testing
-import Button from './Component_button';
+import { Button } from './Component_button';
 
 describe('Button component', () => {
   // First test: verifies that the button is rendered with the correct label

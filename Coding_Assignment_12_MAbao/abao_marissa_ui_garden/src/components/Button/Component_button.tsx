@@ -14,6 +14,7 @@ import { ButtonProps } from './Component_button.types';
 
 // Define a styled button component with conditional styling based on the "disabled" prop
 const StyledButton = styled.button<{ disabled?: boolean }>`
+  box-sizing: border-box; // Ensures padding and border are included in total width/height
   padding: 10px 20px; // Add padding to make the button more clickable
   background-color: ${({ disabled }) => (disabled ? '#ccc' : '#007bff')}; // Gray if disabled, blue otherwise
   color: white; // White text color
@@ -40,4 +41,4 @@ const Button: React.FC<ButtonProps> = ({ label, onClick, disabled = false }) => 
   );
 };
 
-export default Button; // Export the component so it can be used in other parts of the project
+export { Button }; // Export the component so it can be used in other parts of the project

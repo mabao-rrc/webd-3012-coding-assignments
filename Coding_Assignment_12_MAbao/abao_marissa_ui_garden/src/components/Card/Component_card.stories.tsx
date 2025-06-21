@@ -4,24 +4,26 @@
  * Class: WEBD-3012
  * Coding Assignment 12: Web Component Library
  * Filename: Component_card.stories.tsx
- * Description: Defines interactive stories for the Card component using Storybook.
- * Includes default, disabled, and image variation examples.
+ * Description: Storybook stories for the Card component showing default,
+ * image, and disabled variations.
  */
 
 import type { Meta, StoryObj } from '@storybook/react-webpack5';
-import Component_card from './Component_card';
+import { Card } from './Component_card'; // ⬅️ named import matches `export { Card }`
 
-// Default export with metadata
-const meta: Meta<typeof Component_card> = {
+/* ---------- Storybook metadata ---------- */
+const meta: Meta<typeof Card> = {
   title: 'Components/Card',
-  component: Component_card,
+  component: Card,
   tags: ['autodocs'],
 };
 
 export default meta;
-type Story = StoryObj<typeof Component_card>;
+type Story = StoryObj<typeof Card>;
 
-// Default story for Card
+/* ---------- Stories ---------- */
+
+// 1️⃣ Default card
 export const Default: Story = {
   args: {
     title: 'Card Title',
@@ -29,16 +31,17 @@ export const Default: Story = {
   },
 };
 
-// Story with image
+// 2️⃣ Card with a top image
 export const WithImage: Story = {
   args: {
     title: 'Card with Image',
     content: 'Here is a card that includes an image at the top.',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/PNG_transparency_demonstration_1.png/640px-PNG_transparency_demonstration_1.png',
+    imageUrl:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/PNG_transparency_demonstration_1.png/640px-PNG_transparency_demonstration_1.png',
   },
 };
 
-// Disabled card story
+// 3️⃣ Disabled (non-interactive) card
 export const Disabled: Story = {
   args: {
     title: 'Disabled Card',

@@ -8,8 +8,8 @@
  * to simplify and centralize imports from this folder.
  */
 
-// Export the default Button component
-export { default as Button } from './Component_button';
+// Export the Button component (named export)
+export { Button } from './Component_button';
 
 // Export the ButtonProps type for external use
 export type { ButtonProps } from './Component_button.types';

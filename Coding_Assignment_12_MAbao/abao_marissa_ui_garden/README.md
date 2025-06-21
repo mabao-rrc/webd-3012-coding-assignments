@@ -1,46 +1,57 @@
-# Getting Started with Create React App
+# Component Library – Coding Assignment 12
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Student: Marissa Abao  
+Course: WEBD-3012  
+Submission Date: June 30, 2025
 
-## Available Scripts
+This project is a responsive Web Component Library built using **React** and **Storybook**. It is designed for Docker-based deployment and includes a collection of reusable components such as buttons, labels, dropdowns, tables, images, cards, and more.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Getting Started with Docker (Production Build)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This guide shows how to build and run the component library using Docker on **localhost:8083**.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### 🔧 Prerequisites
 
-### `npm test`
+- Docker installed on your machine  
+- Terminal or command prompt access
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+### 📁 Project Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Coding_Assignment_12_MAbao/
+├── abao_marissa_ui_garden/
+│   ├── public/
+│   │   └── index.html
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Button/
+│   │   │   │   ├── Component_button.tsx
+│   │   │   │   ├── Component_button.types.ts
+│   │   │   │   ├── Component_button.stories.tsx
+│   │   │   │   └── Component_button.test.tsx
+│   │   │   ├── Card/
+│   │   │   │   ├── Component_card.tsx
+│   │   │   │   ├── Component_card.types.ts
+│   │   │   │   ├── Component_card.stories.tsx
+│   │   │   │   └── Component_card.test.tsx
+│   │   │   ├── Dropdown/
+│   │   │   ├── Label/
+│   │   │   ├── HeroImage/
+│   │   │   └── Table/
+│   │   ├── App.tsx
+│   │   ├── App.css
+│   │   ├── index.tsx
+│   │   └── ...
+│   ├── .dockerignore
+│   ├── .gitignore
+│   ├── Dockerfile.prod
+│   ├── nginx/
+│   │   └── default.conf
+│   ├── package.json
+│   ├── tsconfig.json
+│   ├── README.md
+│   └── build/                 ← Generated after running `npm run build`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).

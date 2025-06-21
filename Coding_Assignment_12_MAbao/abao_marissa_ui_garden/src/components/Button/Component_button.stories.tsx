@@ -10,7 +10,8 @@
 
 // Import necessary types from Storybook for type-safe metadata and story definitions
 import type { Meta, StoryObj } from '@storybook/react-webpack5';
-import Button from './Component_button';
+import { Button } from './Component_button'; // Matches the named export
+
 
 // Define metadata for the Button component in Storybook
 const meta: Meta<typeof Button> = {

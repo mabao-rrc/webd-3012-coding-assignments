@@ -7,4 +7,8 @@
  * Description: This file re-exports the Card component for simplified imports.
  */
 
-export { default } from './Component_card';
+// If Component_card exports a named export (e.g., export { Card }):
+export { Card } from './Component_card';
+
+// Or, if you want to re-export everything:
+export * from './Component_card';

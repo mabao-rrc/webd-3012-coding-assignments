@@ -1,24 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// Name: Marissa Abao
+// Submission Date: June 30, 2025
+// Class: WEBD-3012
+// Coding Assignment 12: Web Component Library
+// Filename: App.tsx
+// Description: This file serves as the entry point for the production app view. It imports and displays sample components from the UI library.
+
+import React from "react";
+import "./App.css";
+import { Button } from "./components/Button/Component_button";
+import { Card } from "./components/Card/Component_card";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Marissa’s UI Garden 🌿</h1>
+      <Button label="Click Me" />
+      <Card title="Sample Card" content="This is a card preview." />
     </div>
   );
 }
